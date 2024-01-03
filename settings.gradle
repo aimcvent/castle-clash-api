@@ -1,0 +1,5 @@
+rootProject.name = 'castle-clash-api'
+include ':kernel-api'
+project(':kernel-api').projectDir = new File(ext.getProperty('kernel_api_dir'));
+include ':bukkit-api'
+project(':bukkit-api').projectDir = new File(ext.getProperty('bukkit_api_dir'));
