@@ -21,6 +21,7 @@ repositories {
 dependencies {
     compileOnly project(':kernel-api');
     compileOnly project(':bukkit-api');
+    compileOnly project(':player-api');
     compileOnly 'com.google.code.gson:gson:2.10.1';
     compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT';
 }

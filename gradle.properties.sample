@@ -2,3 +2,5 @@
 kernel_api_dir = ../../kernel/api
 # Relative or Absolute path of bukkit api in your file system
 bukkit_api_dir = ../../bukkit/api
+# Relative or Absolute path of player api in your file system
+player_api_dir = ../../player/api

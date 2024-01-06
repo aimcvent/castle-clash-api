@@ -3,3 +3,5 @@ include ':kernel-api'
 project(':kernel-api').projectDir = new File(ext.getProperty('kernel_api_dir'));
 include ':bukkit-api'
 project(':bukkit-api').projectDir = new File(ext.getProperty('bukkit_api_dir'));
+include ':player-api'
+project(':player-api').projectDir = new File(ext.getProperty('player_api_dir'));
