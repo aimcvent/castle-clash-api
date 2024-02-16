@@ -16,8 +16,6 @@ public interface Team {
 
     String prefix();
 
-    String suffix();
-
     List<Player> players();
 
     boolean has(Player player);
