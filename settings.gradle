@@ -5,7 +5,3 @@ include ':bukkit-api'
 project(':bukkit-api').projectDir = new File(ext.getProperty('bukkit_api_dir'));
 include ':player-api'
 project(':player-api').projectDir = new File(ext.getProperty('player_api_dir'));
-include ':handlers-api'
-project(':handlers-api').projectDir = new File(ext.getProperty('handlers_api_dir'));
-include ':role-api'
-project(':role-api').projectDir = new File(ext.getProperty('role_api_dir'));

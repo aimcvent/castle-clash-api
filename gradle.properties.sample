@@ -4,7 +4,3 @@ kernel_api_dir = ../../kernel/api
 bukkit_api_dir = ../../bukkit/api
 # Relative or Absolute path of player api in your file system
 player_api_dir = ../../player/api
-# Relative or Absolute path of handlers api in your file system
-handlers_api_dir = ../../handlers/api
-# Relative or Absolute path of role api in your file system
-role_api_dir = ../../role/api
