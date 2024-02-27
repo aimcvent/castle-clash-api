@@ -6,4 +6,6 @@ public interface Countable {
     Setting<Integer> current();
 
     Setting<Integer> min();
+
+    Setting<Integer> max();
 }

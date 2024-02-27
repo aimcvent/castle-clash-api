@@ -9,6 +9,8 @@ public interface RoleModelBuilder {
 
     RoleModelBuilder solidarity(boolean solidarity);
 
+    RoleModelBuilder solo(boolean solo);
+
     RoleModelBuilder icon(Material material);
 
     RoleModelBuilder icon(Material material, int data);

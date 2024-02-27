@@ -4,8 +4,8 @@ import fr.aimcvent.castleclash.api.role.handler.HandlerModel;
 
 import java.util.List;
 
-public interface Handlers {
+public interface RoleHandlers {
     List<HandlerModel> models();
 
-    Handlers add(HandlerModel handlerModel);
+    RoleHandlers add(HandlerModel handlerModel);
 }

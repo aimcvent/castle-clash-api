@@ -18,9 +18,11 @@ public interface RoleModel extends Model {
 
     boolean solidarity();
 
+    boolean solo();
+
     Countable count();
 
     RoleSettings settings();
 
-    Handlers handlers();
+    RoleHandlers handlers();
 }

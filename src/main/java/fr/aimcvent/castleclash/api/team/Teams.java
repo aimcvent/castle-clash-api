@@ -9,8 +9,6 @@ public interface Teams {
 
     Team spectator();
 
-    Team traitor();
-
     int count();
 
     void register(Team team);
