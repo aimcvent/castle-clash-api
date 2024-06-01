@@ -1,11 +1,9 @@
 package fr.aimcvent.castleclash.api.player;
 
-import fr.aimcvent.castleclash.api.team.Team;
-
 import java.util.Optional;
 
-public interface PlayerTeam {
-    Optional<Team> of();
+public interface Team {
+    Optional<fr.aimcvent.castleclash.api.team.Team> of();
 
     org.bukkit.scoreboard.Team bukkit();
 }

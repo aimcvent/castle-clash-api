@@ -1,23 +1,23 @@
 package fr.aimcvent.castleclash.api.exception;
 
-public class RegisterHandlerModelException extends RuntimeException {
-    public RegisterHandlerModelException() {
+public class BuildModelException extends RuntimeException {
+    public BuildModelException() {
         super();
     }
 
-    public RegisterHandlerModelException(String message) {
+    public BuildModelException(String message) {
         super(message);
     }
 
-    public RegisterHandlerModelException(Throwable cause) {
+    public BuildModelException(Throwable cause) {
         super(cause);
     }
 
-    public RegisterHandlerModelException(String message, Throwable cause) {
+    public BuildModelException(String message, Throwable cause) {
         super(message, cause);
     }
 
-    public RegisterHandlerModelException(
+    public BuildModelException(
         String message,
         Throwable cause,
         boolean enableSuppression,

@@ -1,5 +1,9 @@
 package fr.aimcvent.castleclash.api.utils;
 
-public interface Model {
+import fr.aimcvent.castleclash.api.player.Player;
+
+public interface Model<T> {
     String identifier();
+
+    T create(Player player);
 }

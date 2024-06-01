@@ -20,6 +20,8 @@ public interface Team {
 
     List<Player> players();
 
+    int size();
+
     boolean has(Player player);
 
     Location spawn();

@@ -1,5 +1,7 @@
 package fr.aimcvent.castleclash.api.player;
 
+import fr.aimcvent.castleclash.api.role.Role;
+
 import java.util.Optional;
 import java.util.UUID;
 
@@ -14,5 +16,7 @@ public interface Player {
 
     fr.aimcvent.player.api.Player aimcvent();
 
-    PlayerTeam team();
+    Team team();
+
+    Optional<Role> role();
 }
