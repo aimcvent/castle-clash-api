@@ -15,4 +15,6 @@ public interface Objective {
     boolean broke();
 
     boolean placed();
+
+    long destroyedAt();
 }

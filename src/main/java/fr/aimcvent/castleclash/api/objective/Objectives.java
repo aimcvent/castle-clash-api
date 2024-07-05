@@ -21,6 +21,8 @@ public interface Objectives {
 
     List<Objective> remainingOf(Team team);
 
+    Team bestTeam();
+
     int maxPerTeam();
 
     void place(Objective objective);

@@ -16,6 +16,8 @@ public interface Team {
 
     String name();
 
+    String displayName();
+
     String prefix();
 
     List<Player> players();

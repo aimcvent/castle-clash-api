@@ -1,14 +1,15 @@
-package fr.aimcvent.castleclash.api.event.player;
+package fr.aimcvent.castleclash.api.event.objective;
 
+import fr.aimcvent.castleclash.api.event.player.PlayerEvent;
 import fr.aimcvent.castleclash.api.objective.Objective;
 import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.kernel.api.event.CancellableEvent;
 
-public class PlayerBreakObjectifEvent extends PlayerEvent implements CancellableEvent {
+public class PlayerBreakObjectiveEvent extends PlayerEvent implements CancellableEvent {
     private final Objective objective;
     private boolean cancelled;
 
-    public PlayerBreakObjectifEvent(Player player, Objective objective) {
+    public PlayerBreakObjectiveEvent(Player player, Objective objective) {
         super(player);
         this.objective = objective;
     }
