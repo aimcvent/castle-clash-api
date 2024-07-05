@@ -13,4 +13,8 @@ public enum Nycthemer {
     public long time() {
         return this.time;
     }
+
+    public String translation() {
+        return "nycthemer." + this.name().toLowerCase();
+    }
 }

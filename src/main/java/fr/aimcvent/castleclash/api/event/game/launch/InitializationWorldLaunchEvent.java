@@ -2,5 +2,5 @@ package fr.aimcvent.castleclash.api.event.game.launch;
 
 import fr.aimcvent.kernel.api.event.Event;
 
-public class GenerateObjectifLaunchEvent implements Event {
+public class InitializationWorldLaunchEvent implements Event {
 }

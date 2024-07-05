@@ -1,6 +1,7 @@
 package fr.aimcvent.castleclash.api.player;
 
 import fr.aimcvent.castleclash.api.role.Role;
+import fr.aimcvent.castleclash.api.zone.Zone;
 
 import java.util.Optional;
 import java.util.UUID;
@@ -19,4 +20,6 @@ public interface Player {
     Team team();
 
     Optional<Role> role();
+
+    Optional<Zone> zone();
 }

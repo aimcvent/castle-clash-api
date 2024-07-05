@@ -4,5 +4,5 @@ public enum State {
     LOADING,
     LOBBY,
     GAME,
-    END;
+    END
 }

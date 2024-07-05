@@ -5,5 +5,7 @@ public interface Informations {
 
     boolean damage();
 
+    long time();
+
     Nycthemer nycthemer();
 }

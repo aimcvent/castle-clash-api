@@ -12,10 +12,8 @@ import fr.aimcvent.castleclash.api.role.model.CollectionModel;
 import fr.aimcvent.castleclash.api.role.model.spawn.SpawnModel;
 import fr.aimcvent.castleclash.api.role.model.victory.VictoryModel;
 import fr.aimcvent.castleclash.api.team.Teams;
-import fr.aimcvent.castleclash.api.utils.Informations;
-import fr.aimcvent.castleclash.api.utils.Inventories;
-import fr.aimcvent.castleclash.api.utils.Locations;
-import fr.aimcvent.castleclash.api.utils.Text;
+import fr.aimcvent.castleclash.api.utils.*;
+import fr.aimcvent.castleclash.api.zone.Zones;
 import fr.aimcvent.kernel.api.configuration.WithConfiguration;
 import fr.aimcvent.kernel.api.service.Service;
 import fr.aimcvent.kernel.api.settings.WithSettings;
@@ -44,4 +42,8 @@ public interface CastleClashService extends Service, WithConfiguration, WithSett
     Objectives objectives();
 
     Chests chests();
+
+    Zones zones();
+
+    MaterialAllowed materialAllowed();
 }

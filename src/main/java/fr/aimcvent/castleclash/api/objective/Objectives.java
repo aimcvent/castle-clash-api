@@ -15,6 +15,12 @@ public interface Objectives {
 
     Optional<Objective> of(Location location);
 
+    List<Objective> of(Team team);
+
+    List<Objective> placedOf(Team team);
+
+    List<Objective> remainingOf(Team team);
+
     int maxPerTeam();
 
     void place(Objective objective);
