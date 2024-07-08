@@ -22,4 +22,8 @@ public interface Player {
     Optional<Role> role();
 
     Optional<Zone> zone();
+
+    boolean death();
+
+    boolean eliminate();
 }

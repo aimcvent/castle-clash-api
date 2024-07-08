@@ -9,4 +9,7 @@ public class RoleSettingKey {
 
     public static final String STRENGTH_IDENTIFIER = "strength";
     public static final double STRENGTH_VALUE = 0.3d;
+
+    public static final String TIME_RESPAWN_IDENTIFIER = "time.respawn";
+    public static final int TIME_RESPAWN_VALUE = 20;
 }

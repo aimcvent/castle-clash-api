@@ -9,6 +9,8 @@ public interface Locations {
 
     Location spawn();
 
+    Location respawn();
+
     Location parse(Configuration configuration, String path);
 
     Location parse(Map<String, Object> locationMap);
