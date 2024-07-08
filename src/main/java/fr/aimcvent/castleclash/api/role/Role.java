@@ -21,4 +21,6 @@ public interface Role {
     boolean solo();
 
     Spawns spawns();
+
+    RoleSettings settings();
 }

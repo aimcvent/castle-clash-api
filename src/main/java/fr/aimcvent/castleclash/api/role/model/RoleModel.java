@@ -26,7 +26,7 @@ public interface RoleModel extends Model<Role> {
 
     Countable count();
 
-    RoleSettings settings();
+    RoleSettingsModel settings();
 
     RoleCollectionModel<HandlerModel, Handler> handlers();
 

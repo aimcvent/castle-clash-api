@@ -1,5 +1,6 @@
 package fr.aimcvent.castleclash.api.role.model;
 
+import fr.aimcvent.castleclash.api.role.RoleSetting;
 import fr.aimcvent.kernel.api.settings.Setting;
 import fr.aimcvent.kernel.api.translation.Translation;
 
@@ -13,4 +14,6 @@ public interface RoleSettingModel<T> {
     Class<?> type();
 
     <V extends Setting<T>> V setting();
+
+    <V extends RoleSetting<T>> V create();
 }
