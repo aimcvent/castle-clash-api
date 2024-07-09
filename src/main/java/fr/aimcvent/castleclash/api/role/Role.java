@@ -4,6 +4,7 @@ import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.castleclash.api.role.spawn.Spawns;
 import fr.aimcvent.kernel.api.service.Service;
 import fr.aimcvent.kernel.api.translation.Translation;
+import fr.aimcvent.kernel.api.translation.Translator;
 
 public interface Role {
     Service service();
@@ -12,7 +13,11 @@ public interface Role {
 
     Player player();
 
+    Translator name();
+
     String name(Translation translation);
+
+    Translator description();
 
     String description(Translation translation);
 

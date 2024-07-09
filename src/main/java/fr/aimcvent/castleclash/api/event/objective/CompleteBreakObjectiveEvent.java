@@ -15,7 +15,7 @@ public class CompleteBreakObjectiveEvent implements Event {
     }
 
     public Optional<Team> team() {
-        return Optional.of(this.team);
+        return Optional.ofNullable(this.team);
     }
 
     public Team winner() {
