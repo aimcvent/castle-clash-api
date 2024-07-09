@@ -3,8 +3,8 @@ package fr.aimcvent.castleclash.api;
 import fr.aimcvent.castleclash.api.chest.Chests;
 import fr.aimcvent.castleclash.api.objective.Objectives;
 import fr.aimcvent.castleclash.api.player.Players;
-import fr.aimcvent.castleclash.api.role.Handler;
 import fr.aimcvent.castleclash.api.role.Roles;
+import fr.aimcvent.castleclash.api.role.handler.Handler;
 import fr.aimcvent.castleclash.api.role.spawn.Spawn;
 import fr.aimcvent.castleclash.api.role.Victory;
 import fr.aimcvent.castleclash.api.role.model.handler.HandlerModel;
@@ -33,7 +33,7 @@ public interface CastleClashService extends Service, WithConfiguration, WithSett
 
     Text text();
 
-    CollectionModel<HandlerModel, Handler> handlers();
+    CollectionModel<HandlerModel, Handler<?>> handlers();
 
     CollectionModel<VictoryModel, Victory> victories();
 

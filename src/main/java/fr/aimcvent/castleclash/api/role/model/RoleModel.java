@@ -1,6 +1,7 @@
 package fr.aimcvent.castleclash.api.role.model;
 
 import fr.aimcvent.castleclash.api.role.*;
+import fr.aimcvent.castleclash.api.role.handler.Handler;
 import fr.aimcvent.castleclash.api.role.model.handler.HandlerModel;
 import fr.aimcvent.castleclash.api.role.model.spawn.SpawnModel;
 import fr.aimcvent.castleclash.api.role.model.victory.VictoryModel;
@@ -28,7 +29,7 @@ public interface RoleModel extends Model<Role> {
 
     RoleSettingsModel settings();
 
-    RoleCollectionModel<HandlerModel, Handler> handlers();
+    RoleCollectionModel<HandlerModel, Handler<?>> handlers();
 
     RoleCollectionModel<VictoryModel, Victory> victories();
 

@@ -1,6 +1,7 @@
 package fr.aimcvent.castleclash.api.role;
 
 import fr.aimcvent.castleclash.api.player.Player;
+import fr.aimcvent.castleclash.api.role.handler.Emitter;
 import fr.aimcvent.castleclash.api.role.model.RoleModel;
 import fr.aimcvent.castleclash.api.role.model.RoleModelBuilder;
 import fr.aimcvent.kernel.api.service.Service;
@@ -26,4 +27,6 @@ public interface Roles {
     void apply(Player player, RoleModel model);
 
     void send(Player player);
+
+    Emitter emitter();
 }
