@@ -26,4 +26,6 @@ public interface Player {
     boolean death();
 
     boolean eliminate();
+
+    void sendTitle(String title, String subtitle, int fadeIn, int appear, int fadeOut);
 }
