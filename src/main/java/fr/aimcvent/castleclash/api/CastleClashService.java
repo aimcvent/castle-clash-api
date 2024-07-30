@@ -1,5 +1,6 @@
 package fr.aimcvent.castleclash.api;
 
+import fr.aimcvent.castleclash.api.allow.AllowList;
 import fr.aimcvent.castleclash.api.chest.Chests;
 import fr.aimcvent.castleclash.api.objective.Objectives;
 import fr.aimcvent.castleclash.api.player.Players;
@@ -45,5 +46,5 @@ public interface CastleClashService extends Service, WithConfiguration, WithSett
 
     Zones zones();
 
-    MaterialAllowed materialAllowed();
+    AllowList allow();
 }

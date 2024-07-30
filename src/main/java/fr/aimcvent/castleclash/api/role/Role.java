@@ -31,4 +31,6 @@ public interface Role {
     Handlers handlers();
 
     RoleSettings settings();
+
+    RoleInventory inventory();
 }

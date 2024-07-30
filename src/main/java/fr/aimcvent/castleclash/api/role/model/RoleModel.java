@@ -3,6 +3,8 @@ package fr.aimcvent.castleclash.api.role.model;
 import fr.aimcvent.castleclash.api.role.*;
 import fr.aimcvent.castleclash.api.role.handler.Handler;
 import fr.aimcvent.castleclash.api.role.model.handler.HandlerModel;
+import fr.aimcvent.castleclash.api.role.model.inventory.RoleArmorModel;
+import fr.aimcvent.castleclash.api.role.model.inventory.RoleInventoryModel;
 import fr.aimcvent.castleclash.api.role.model.spawn.SpawnModel;
 import fr.aimcvent.castleclash.api.role.model.victory.VictoryModel;
 import fr.aimcvent.castleclash.api.role.spawn.Spawn;
@@ -34,4 +36,8 @@ public interface RoleModel extends Model<Role> {
     RoleCollectionModel<VictoryModel, Victory> victories();
 
     RoleCollectionModel<SpawnModel, Spawn> spawns();
+
+    RoleArmorModel armor();
+
+    RoleInventoryModel inventory();
 }

@@ -1,5 +1,7 @@
 package fr.aimcvent.castleclash.api.role.model;
 
+import fr.aimcvent.castleclash.api.role.model.inventory.RoleArmorModelBuilder;
+import fr.aimcvent.castleclash.api.role.model.inventory.RoleInventoryModelBuilder;
 import org.bukkit.Material;
 
 public interface RoleModelBuilder {
@@ -14,6 +16,10 @@ public interface RoleModelBuilder {
     RoleModelBuilder icon(Material material);
 
     RoleModelBuilder icon(Material material, int data);
+
+    RoleInventoryModelBuilder inventory();
+
+    RoleArmorModelBuilder armor();
 
     RoleModel build();
 }
