@@ -6,4 +6,5 @@ public interface AllowList {
     Allow<Material> placeable();
 
     Allow<Material> droppable();
+    Allow<Material> opening();
 }
