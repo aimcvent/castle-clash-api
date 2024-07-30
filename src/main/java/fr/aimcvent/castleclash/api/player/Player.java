@@ -28,4 +28,8 @@ public interface Player {
     boolean eliminate();
 
     void sendTitle(String title, String subtitle, int fadeIn, int appear, int fadeOut);
+
+    Kills kills();
+
+    Assists assists();
 }
