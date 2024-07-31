@@ -9,4 +9,5 @@ public class SidebarKey {
     public static final String DISTANCE_TEAM   = "distance_team";
     public static final String KILLS           = "kills";
     public static final String ASSISTS         = "assists";
+    public static final String DEATHS          = "deaths";
 }

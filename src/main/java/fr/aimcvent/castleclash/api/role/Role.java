@@ -6,6 +6,7 @@ import fr.aimcvent.castleclash.api.role.handler.Handlers;
 import fr.aimcvent.castleclash.api.role.model.RoleModel;
 import fr.aimcvent.castleclash.api.role.spawn.Spawns;
 import fr.aimcvent.castleclash.api.role.victory.Victories;
+import fr.aimcvent.castleclash.api.team.Team;
 import fr.aimcvent.kernel.api.service.Service;
 import fr.aimcvent.kernel.api.translation.Translation;
 import fr.aimcvent.kernel.api.translation.Translator;
@@ -42,4 +43,6 @@ public interface Role {
     Effects effects();
 
     Victories victories();
+
+    Team team();
 }

@@ -1,5 +1,6 @@
 package fr.aimcvent.castleclash.api.player;
 
+import fr.aimcvent.castleclash.api.player.statistic.Statistics;
 import fr.aimcvent.castleclash.api.role.Role;
 import fr.aimcvent.castleclash.api.zone.Zone;
 
@@ -29,7 +30,5 @@ public interface Player {
 
     void sendTitle(String title, String subtitle, int fadeIn, int appear, int fadeOut);
 
-    Kills kills();
-
-    Assists assists();
+    Statistics statistics();
 }

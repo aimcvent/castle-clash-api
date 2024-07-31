@@ -6,4 +6,6 @@ public interface Team {
     Optional<fr.aimcvent.castleclash.api.team.Team> of();
 
     org.bukkit.scoreboard.Team bukkit();
+
+    void updateElo();
 }

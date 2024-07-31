@@ -1,4 +1,7 @@
-package fr.aimcvent.castleclash.api.player;
+package fr.aimcvent.castleclash.api.player.statistic;
+
+import fr.aimcvent.castleclash.api.player.Player;
+import fr.aimcvent.castleclash.api.player.statistic.Assist;
 
 import java.util.List;
 import java.util.Optional;

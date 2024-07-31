@@ -1,4 +1,6 @@
-package fr.aimcvent.castleclash.api.player;
+package fr.aimcvent.castleclash.api.player.statistic;
+
+import fr.aimcvent.castleclash.api.player.Player;
 
 public interface Assist {
     Player player();
