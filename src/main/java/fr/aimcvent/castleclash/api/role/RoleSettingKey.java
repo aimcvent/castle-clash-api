@@ -13,6 +13,12 @@ public class RoleSettingKey {
     public static final String TIME_RESPAWN_IDENTIFIER = "time.respawn";
     public static final int TIME_RESPAWN_VALUE = 20;
 
+    public static final String UP_HEALTH_IDENTIFIER = "up.health";
+    public static final int UP_HEALTH_VALUE = 4;
+
+    public static final String UP_COUNT_IDENTIFIER = "up.count";
+    public static final int UP_COUNT_VALUE = 1;
+
     public static final String UNMASK_HEALTH_IDENTIFIER = "unmask.health";
     public static final int UNMASK_HEALTH_VALUE = 8;
 

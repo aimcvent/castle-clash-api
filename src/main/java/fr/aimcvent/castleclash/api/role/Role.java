@@ -47,4 +47,6 @@ public interface Role {
     Victories victories();
 
     Team team();
+
+    UpCounter up();
 }
