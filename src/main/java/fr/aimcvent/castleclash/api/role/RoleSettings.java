@@ -6,4 +6,5 @@ public interface RoleSettings {
     List<RoleSetting<?>> all();
 
     <T> T of(String key, T def);
+    <T> void set(String key, T value);
 }

@@ -2,6 +2,8 @@ package fr.aimcvent.castleclash.api.role.model;
 
 import fr.aimcvent.castleclash.api.role.model.inventory.RoleArmorModelBuilder;
 import fr.aimcvent.castleclash.api.role.model.inventory.RoleInventoryModelBuilder;
+import fr.aimcvent.castleclash.api.role.model.message.MessageModel;
+import fr.aimcvent.castleclash.api.role.model.message.MessageModelBuilder;
 import org.bukkit.Material;
 
 public interface RoleModelBuilder {
@@ -20,6 +22,8 @@ public interface RoleModelBuilder {
     RoleInventoryModelBuilder inventory();
 
     RoleArmorModelBuilder armor();
+
+    RoleModelBuilder addSpawnDescription(MessageModelBuilder messageModel);
 
     RoleModel build();
 }

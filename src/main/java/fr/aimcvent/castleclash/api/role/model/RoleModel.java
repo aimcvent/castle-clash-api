@@ -15,12 +15,17 @@ import fr.aimcvent.castleclash.api.utils.Countable;
 import fr.aimcvent.castleclash.api.utils.Model;
 import fr.aimcvent.kernel.api.service.Service;
 import fr.aimcvent.kernel.api.translation.Translation;
+import fr.aimcvent.kernel.api.translation.Translator;
 import org.bukkit.inventory.ItemStack;
 
 public interface RoleModel extends Model<Role> {
     Service service();
 
+    Translator name();
+
     String name(Translation translation);
+
+    Translator description();
 
     String description(Translation translation);
 

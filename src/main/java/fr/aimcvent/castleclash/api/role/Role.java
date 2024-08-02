@@ -28,6 +28,8 @@ public interface Role {
 
     String description(Translation translation);
 
+    String spawnDescription(Translation translation);
+
     boolean solidarity();
 
     boolean solo();

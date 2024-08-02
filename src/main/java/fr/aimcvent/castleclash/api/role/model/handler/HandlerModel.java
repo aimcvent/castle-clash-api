@@ -4,5 +4,4 @@ import fr.aimcvent.castleclash.api.role.handler.Handler;
 import fr.aimcvent.castleclash.api.utils.LoadSettingModel;
 
 public interface HandlerModel extends LoadSettingModel<Handler<?>> {
-
 }

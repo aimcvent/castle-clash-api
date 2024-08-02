@@ -9,11 +9,14 @@ import java.util.function.Function;
 public interface RoleSettingItemModelBuilder<T> {
     RoleSettingItemModelBuilder<T> icon(ItemStack itemStack);
 
-    RoleSettingItemModelBuilder<T> format(Function<T, String> function);
+    RoleSettingItemModelBuilder<T> format(Function<T, Object> function);
 
     RoleSettingItemModelBuilder<T> left(Consumer<Setting<T>> consumer);
 
     RoleSettingItemModelBuilder<T> right(Consumer<Setting<T>> consumer);
+
+    RoleSettingItemModelBuilder<T> header(Object... translators);
+    RoleSettingItemModelBuilder<T> footer(Object... translators);
 
     RoleSettingModelBuilder<T> close();
 }

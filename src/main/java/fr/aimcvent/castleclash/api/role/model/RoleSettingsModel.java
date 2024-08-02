@@ -10,6 +10,8 @@ import java.util.List;
 public interface RoleSettingsModel {
     List<RoleSettingModel<?>> all();
 
+    boolean has(String key);
+
     <T> Setting<T> of(String key);
 
     <T extends Number> NumericSetting<T> numericOf(String key);
