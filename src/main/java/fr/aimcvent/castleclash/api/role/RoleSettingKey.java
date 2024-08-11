@@ -1,5 +1,7 @@
 package fr.aimcvent.castleclash.api.role;
 
+import fr.aimcvent.castleclash.api.utils.Nycthemer;
+
 public class RoleSettingKey {
     public static final String GOLDEN_APPLE_MAX_IDENTIFIER = "golden.apple.max";
     public static final int GOLDEN_APPLE_MAX_VALUE = 5;
@@ -27,4 +29,25 @@ public class RoleSettingKey {
 
     public static final String PROXIMITY_EFFECT_DISTANCE_IDENTIFIER = "proximity.effect.distance";
     public static final int PROXIMITY_EFFECT_DISTANCE_VALUE = 10;
+
+    public static final String GIVE_PROXIMITY_EFFECT_DISTANCE_IDENTIFIER = "give.proximity.effect.distance";
+    public static final int GIVE_PROXIMITY_EFFECT_DISTANCE_VALUE = 10;
+
+    public static final String GIVE_PROXIMITY_EFFECT_MATERIAL_DISTANCE_IDENTIFIER = "give.proximity.effect.material.distance";
+    public static final int GIVE_PROXIMITY_EFFECT_MATERIAL_DISTANCE_VALUE = 10;
+
+    public static final String UP_PROXIMITY_HEAL_IDENTIFIER = "up.proximity.heal";
+    public static final int UP_PROXIMITY_HEAL_VALUE = 2;
+
+    public static final String UP_PROXIMITY_HEAL_DISTANCE_IDENTIFIER = "up.proximity.heal.distance";
+    public static final int UP_PROXIMITY_HEAL_DISTANCE_VALUE = 10;
+
+    public static final String UP_PROXIMITY_HEAL_TIME_IDENTIFIER = "up.proximity.heal.time";
+    public static final int UP_PROXIMITY_HEAL_TIME_VALUE = 8;
+
+    public static final String HEAL_REVEAL_IDENTIFIER = "heal.reveal";
+    public static final int HEAL_REVEAL_VALUE = 2;
+
+    public static final String CHAT_NYCTHEMER_IDENTIFIER = "chat.nycthemer";
+    public static final Nycthemer CHAT_NYCTHEMER_VALUE = Nycthemer.DAY;
 }
