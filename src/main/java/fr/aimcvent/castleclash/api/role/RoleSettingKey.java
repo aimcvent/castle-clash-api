@@ -50,4 +50,10 @@ public class RoleSettingKey {
 
     public static final String CHAT_NYCTHEMER_IDENTIFIER = "chat.nycthemer";
     public static final Nycthemer CHAT_NYCTHEMER_VALUE = Nycthemer.DAY;
+
+    public static final String COUNT_DEATH_ELIMINATE_IDENTIFIER = "count.death.eliminate";
+    public static final int COUNT_DEATH_ELIMINATE_VALUE = 1;
+
+    public static final String TOGGLE_REVEAL_PROXIMITY_EFFECT_DISTANCE_IDENTIFIER = "toggle.reveal.proximity.effect.distance";
+    public static final int TOGGLE_REVEAL_PROXIMITY_EFFECT_DISTANCE_VALUE = 10;
 }
