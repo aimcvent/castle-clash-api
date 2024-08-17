@@ -28,4 +28,6 @@ public interface Objectives {
     void place(Objective objective);
 
     void broke(Objective objective);
+
+    boolean complete();
 }

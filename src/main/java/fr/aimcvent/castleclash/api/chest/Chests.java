@@ -1,11 +1,15 @@
 package fr.aimcvent.castleclash.api.chest;
 
 import fr.aimcvent.castleclash.api.player.Player;
+import org.bukkit.Location;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface Chests {
     List<Chest> all();
+
+    Optional<Chest> of(Location location);
 
     int count();
 

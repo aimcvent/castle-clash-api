@@ -49,4 +49,8 @@ public interface Role {
     Team team();
 
     UpCounter up();
+
+    boolean hasDenyReward(String reward);
+
+    AdditionalLife additionalLife();
 }

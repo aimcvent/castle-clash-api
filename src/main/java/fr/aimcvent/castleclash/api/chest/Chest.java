@@ -5,6 +5,8 @@ import org.bukkit.Location;
 public interface Chest {
     Location location();
 
+    boolean isAppear();
+
     void spawn();
 
     void destroy();

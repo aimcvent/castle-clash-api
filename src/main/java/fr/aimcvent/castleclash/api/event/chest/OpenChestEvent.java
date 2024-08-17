@@ -1,7 +1,8 @@
-package fr.aimcvent.castleclash.api.event.player;
+package fr.aimcvent.castleclash.api.event.chest;
 
 import fr.aimcvent.castleclash.api.chest.Chest;
 import fr.aimcvent.castleclash.api.chest.Reward;
+import fr.aimcvent.castleclash.api.event.player.PlayerEvent;
 import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.kernel.api.event.CancellableEvent;
 

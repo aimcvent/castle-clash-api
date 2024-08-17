@@ -25,5 +25,7 @@ public interface RoleModelBuilder {
 
     RoleModelBuilder addSpawnDescription(MessageModelBuilder messageModel);
 
+    RoleModelBuilder addDenyReward(String reward);
+
     RoleModel build();
 }
