@@ -24,6 +24,9 @@ public class RoleSettingKey {
     public static final String SNIF_COUNT_IDENTIFIER = "snif.count";
     public static final int SNIF_COUNT_VALUE = 1;
 
+    public static final String REVIVE_COUNT_IDENTIFIER = "revive.count";
+    public static final int REVIVE_COUNT_VALUE = 1;
+
     public static final String SNIF_HEAL_IDENTIFIER = "snif.heal";
     public static final int SNIF_HEAL_VALUE = 2;
 
@@ -83,4 +86,35 @@ public class RoleSettingKey {
 
     public static final String UP_TIMER_USE_POTION_IDENTIFIER = "up.timer.use.potion";
     public static final int UP_TIMER_USE_POTION_VALUE = 60;
+
+    public static final String DEATH_PROXIMITY_WEAKNESS_DISTANCE_IDENTIFIER = "death.proximity.weakness.distance";
+    public static final int DEATH_PROXIMITY_WEAKNESS_DISTANCE_VALUE = 10;
+
+    public static final String DEATH_PROXIMITY_WEAKNESS_TIME_IDENTIFIER = "death.proximity.weakness.time";
+    public static final int DEATH_PROXIMITY_WEAKNESS_TIME_VALUE = 10;
+
+    public static final String DEATH_PROXIMITY_WEAKNESS_LEVEL_IDENTIFIER = "death.proximity.weakness.level";
+    public static final int DEATH_PROXIMITY_WEAKNESS_LEVEL_VALUE = 1;
+
+    public static final String ADD_EFFECT_REGENERATION_ITEM_DISTANCE_IDENTIFIER = "add.effect.regeneration.item.distance";
+    public static final int ADD_EFFECT_REGENERATION_ITEM_DISTANCE_VALUE = 10;
+
+    public static final String ADD_EFFECT_REGENERATION_ITEM_TIME_IDENTIFIER = "add.effect.regeneration.item.time";
+    public static final int ADD_EFFECT_REGENERATION_ITEM_TIME_VALUE = 5;
+
+    public static final String ADD_EFFECT_REGENERATION_ITEM_REACTIVE_TIME_IDENTIFIER = "add.effect.regeneration.item.reactive.time";
+    public static final int ADD_EFFECT_REGENERATION_ITEM_REACTIVE_TIME_VALUE = 60;
+
+    public static final String ADD_EFFECT_REGENERATION_ITEM_LEVEL_IDENTIFIER = "add.effect.regeneration.item.level";
+    public static final int ADD_EFFECT_REGENERATION_ITEM_LEVEL_VALUE = 2;
+
+
+    public static final String REMOVE_EFFECT_POSITIVE_FOR_TEAM_DISTANCE_IDENTIFIER = "remove.effect.positive.for.team.distance";
+    public static final int REMOVE_EFFECT_POSITIVE_FOR_TEAM_DISTANCE_VALUE = 10;
+
+    public static final String REMOVE_EFFECT_POSITIVE_FOR_TEAM_TIME_IDENTIFIER = "remove.effect.positive.for.team.time";
+    public static final int REMOVE_EFFECT_POSITIVE_FOR_TEAM_TIME_VALUE = 15;
+
+    public static final String REMOVE_EFFECT_POSITIVE_FOR_TEAM_REACTIVE_TIME_IDENTIFIER = "remove.effect.positive.for.team.reactive.time";
+    public static final int REMOVE_EFFECT_POSITIVE_FOR_TEAM_REACTIVE_TIME_VALUE = 60;
 }

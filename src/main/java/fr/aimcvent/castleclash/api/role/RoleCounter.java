@@ -1,6 +1,6 @@
 package fr.aimcvent.castleclash.api.role;
 
-public interface SnifCounter {
+public interface RoleCounter {
     int of();
 
     void add();

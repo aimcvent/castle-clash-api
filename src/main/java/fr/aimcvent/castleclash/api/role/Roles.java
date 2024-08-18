@@ -25,7 +25,7 @@ public interface Roles {
 
     Roles register(RoleModel roleModel);
 
-    void apply(Player player, RoleModel model);
+    Role apply(Player player, RoleModel model);
 
     void send(Player player);
 
