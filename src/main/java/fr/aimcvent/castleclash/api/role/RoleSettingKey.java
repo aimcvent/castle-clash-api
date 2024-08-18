@@ -21,6 +21,12 @@ public class RoleSettingKey {
     public static final String UP_COUNT_IDENTIFIER = "up.count";
     public static final int UP_COUNT_VALUE = 1;
 
+    public static final String SNIF_COUNT_IDENTIFIER = "snif.count";
+    public static final int SNIF_COUNT_VALUE = 1;
+
+    public static final String SNIF_HEAL_IDENTIFIER = "snif.heal";
+    public static final int SNIF_HEAL_VALUE = 2;
+
     public static final String UNMASK_HEALTH_IDENTIFIER = "unmask.health";
     public static final int UNMASK_HEALTH_VALUE = 8;
 
@@ -56,4 +62,25 @@ public class RoleSettingKey {
 
     public static final String TOGGLE_REVEAL_PROXIMITY_EFFECT_DISTANCE_IDENTIFIER = "toggle.reveal.proximity.effect.distance";
     public static final int TOGGLE_REVEAL_PROXIMITY_EFFECT_DISTANCE_VALUE = 10;
+
+    public static final String ARROW_FLAME_RATE_IDENTIFIER = "arrow.flame.rate";
+    public static final int ARROW_FLAME_RATE_VALUE = 25;
+
+    public static final String ARROW_FLAME_RATE_UP_IDENTIFIER = "arrow.flame.rate.up";
+    public static final int ARROW_FLAME_RATE_UP_VALUE = 50;
+
+    public static final String ARROW_KNOCK_BACK_RATE_IDENTIFIER = "arrow.knock.back.rate";
+    public static final int ARROW_KNOCK_BACK_RATE_VALUE = 0;
+
+    public static final String ARROW_KNOCK_BACK_RATE_UP_IDENTIFIER = "arrow.knock.back.rate.up";
+    public static final int ARROW_KNOCK_BACK_RATE_UP_VALUE = 15;
+
+    public static final String ARROW_KNOCK_BACK_LEVEL_IDENTIFIER = "arrow.knock.back.level";
+    public static final int ARROW_KNOCK_BACK_LEVEL_VALUE = 2;
+
+    public static final String SPAWN_TIMER_POTION_IDENTIFIER = "spawn.timer.potion";
+    public static final int SPAWN_TIMER_POTION_VALUE = 120;
+
+    public static final String UP_TIMER_USE_POTION_IDENTIFIER = "up.timer.use.potion";
+    public static final int UP_TIMER_USE_POTION_VALUE = 60;
 }

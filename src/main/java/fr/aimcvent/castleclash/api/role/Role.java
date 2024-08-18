@@ -53,4 +53,8 @@ public interface Role {
     boolean hasDenyReward(String reward);
 
     AdditionalLife additionalLife();
+
+    SnifCounter snif();
+
+    Tameables tameables();
 }
