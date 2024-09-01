@@ -23,6 +23,8 @@ public interface Objectives {
 
     Team bestTeam();
 
+    Team winner();
+
     int maxPerTeam();
 
     void place(Objective objective);
