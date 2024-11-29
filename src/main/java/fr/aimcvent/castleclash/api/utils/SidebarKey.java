@@ -10,4 +10,8 @@ public class SidebarKey {
     public static final String KILLS           = "kills";
     public static final String ASSISTS         = "assists";
     public static final String DEATHS          = "deaths";
+    public static final String VICTORY         = "victory";
+    public static final String TOP_KILLER      = "top_killer";
+    public static final String TOP_ASSIST      = "top_assist";
+    public static final String TOP_OBSIDIAN    = "top_obsidian";
 }

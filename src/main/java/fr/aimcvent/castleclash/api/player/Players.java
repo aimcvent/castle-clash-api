@@ -12,6 +12,7 @@ import java.util.Map;
 
 public interface Players {
     List<Player> all();
+
     int count();
 
     List<Player> allCanPlay();

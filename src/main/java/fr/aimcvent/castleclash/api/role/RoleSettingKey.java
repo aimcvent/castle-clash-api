@@ -4,7 +4,7 @@ import fr.aimcvent.castleclash.api.utils.Nycthemer;
 
 public class RoleSettingKey {
     public static final String GOLDEN_APPLE_MAX_IDENTIFIER = "golden.apple.max";
-    public static final int GOLDEN_APPLE_MAX_VALUE = 5;
+    public static final int GOLDEN_APPLE_MAX_VALUE = 12;
 
     public static final String HEALTH_IDENTIFIER = "health";
     public static final int HEALTH_VALUE = 20;
@@ -82,10 +82,10 @@ public class RoleSettingKey {
     public static final int ARROW_KNOCK_BACK_LEVEL_VALUE = 2;
 
     public static final String SPAWN_TIMER_POTION_IDENTIFIER = "spawn.timer.potion";
-    public static final int SPAWN_TIMER_POTION_VALUE = 120;
+    public static final int SPAWN_TIMER_POTION_VALUE = 45;
 
     public static final String UP_TIMER_USE_POTION_IDENTIFIER = "up.timer.use.potion";
-    public static final int UP_TIMER_USE_POTION_VALUE = 60;
+    public static final int UP_TIMER_USE_POTION_VALUE = 30;
 
     public static final String DEATH_PROXIMITY_WEAKNESS_DISTANCE_IDENTIFIER = "death.proximity.weakness.distance";
     public static final int DEATH_PROXIMITY_WEAKNESS_DISTANCE_VALUE = 10;
@@ -108,7 +108,6 @@ public class RoleSettingKey {
     public static final String ADD_EFFECT_REGENERATION_ITEM_LEVEL_IDENTIFIER = "add.effect.regeneration.item.level";
     public static final int ADD_EFFECT_REGENERATION_ITEM_LEVEL_VALUE = 2;
 
-
     public static final String REMOVE_EFFECT_POSITIVE_FOR_TEAM_DISTANCE_IDENTIFIER = "remove.effect.positive.for.team.distance";
     public static final int REMOVE_EFFECT_POSITIVE_FOR_TEAM_DISTANCE_VALUE = 10;
 
@@ -117,4 +116,16 @@ public class RoleSettingKey {
 
     public static final String REMOVE_EFFECT_POSITIVE_FOR_TEAM_REACTIVE_TIME_IDENTIFIER = "remove.effect.positive.for.team.reactive.time";
     public static final int REMOVE_EFFECT_POSITIVE_FOR_TEAM_REACTIVE_TIME_VALUE = 60;
+
+    public static final String REMOVE_EFFECT_POSITIVE_FOR_TEAM_COST_IDENTIFIER = "remove.effect.positive.for.team.cost";
+    public static final int REMOVE_EFFECT_POSITIVE_FOR_TEAM_COST_VALUE = 2;
+
+    public static final String HEAL_COMPLETE_OBJECTIVE_IDENTIFIER = "heal.complete.objective";
+    public static final int HEAL_COMPLETE_OBJECTIVE_VALUE = 4;
+
+    public static final String REGENERATION_HEAL_IDENTIFIER = "regeneration.heal";
+    public static final int REGENERATION_HEAL_VALUE = 1;
+
+    public static final String REGENERATION_TIME_IDENTIFIER = "regeneration.time";
+    public static final int REGENERATION_TIME_VALUE = 10;
 }

@@ -54,7 +54,7 @@ public interface Role {
 
     AdditionalLife additionalLife();
 
-    RoleCounter snif();
+    SnifCounter snif();
 
     RoleCounter revive();
 

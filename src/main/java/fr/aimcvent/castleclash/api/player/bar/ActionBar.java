@@ -8,6 +8,8 @@ public interface ActionBar {
 
     List<SectionBar> sections();
 
+    boolean has(Class<? extends SectionBar> clazz);
+
     <T extends SectionBar> T of(Class<T> clazz);
 
     <T extends SectionBar> void register(Class<T> type, T section);
