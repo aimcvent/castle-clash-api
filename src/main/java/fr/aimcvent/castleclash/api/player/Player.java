@@ -34,4 +34,6 @@ public interface Player {
     Statistics statistics();
 
     ActionBar actionBar();
+
+    SettingSerializers serializers();
 }

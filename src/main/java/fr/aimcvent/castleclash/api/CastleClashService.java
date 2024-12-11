@@ -13,6 +13,7 @@ import fr.aimcvent.castleclash.api.role.model.handler.HandlerModel;
 import fr.aimcvent.castleclash.api.role.model.CollectionModel;
 import fr.aimcvent.castleclash.api.role.model.spawn.SpawnModel;
 import fr.aimcvent.castleclash.api.role.model.victory.VictoryModel;
+import fr.aimcvent.castleclash.api.serializer.SettingSerializers;
 import fr.aimcvent.castleclash.api.team.Teams;
 import fr.aimcvent.castleclash.api.utils.*;
 import fr.aimcvent.castleclash.api.zone.Zones;
@@ -50,4 +51,6 @@ public interface CastleClashService extends Service, WithConfiguration, WithSett
     Zones zones();
 
     AllowList allow();
+
+    SettingSerializers serializers();
 }

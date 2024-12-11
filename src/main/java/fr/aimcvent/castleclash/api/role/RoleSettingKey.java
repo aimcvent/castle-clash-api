@@ -158,4 +158,28 @@ public class RoleSettingKey {
 
     public static final String UP_ADD_BOOST_COUNT_IDENTIFIER = "up.add.boost.count";
     public static final int UP_ADD_BOOST_COUNT_VALUE = 1;
+
+    public static final String TRACK_PLAYER_TIME_IDENTIFIER = "track.player.time";
+    public static final long TRACK_PLAYER_TIME_VALUE = 60L;
+
+    public static final String TRACK_PLAYER_SHOW_DISTANCE_IDENTIFIER = "track.player.show.distance";
+    public static final int TRACK_PLAYER_SHOW_DISTANCE_VALUE = 10;
+
+    public static final String TRACK_PLAYER_EFFECT_DISTANCE_IDENTIFIER = "track.player.effect.distance";
+    public static final int TRACK_PLAYER_EFFECT_DISTANCE_VALUE = 5;
+
+    public static final String TRACK_PLAYER_FOCUS_ENTITY_DISTANCE_IDENTIFIER = "track.player.effect.distance";
+    public static final int TRACK_PLAYER_FOCUS_ENTITY_DISTANCE_VALUE = 5;
+
+    public static final String ENTITY_MORE_DAMAGE_IDENTIFIER = "entity.more.damage";
+    public static final double ENTITY_MORE_DAMAGE_VALUE = 0.3d;
+
+    public static final String ITEM_EFFECT_LIMIT_IDENTIFIER = "item.effect.limit";
+    public static final int ITEM_EFFECT_LIMIT_VALUE = 3;
+
+    public static final String ITEM_EFFECT_TIME_IDENTIFIER = "item.effect.time";
+    public static final long ITEM_EFFECT_TIME_VALUE = 30;
+
+    public static final String ITEM_EFFECT_DISTANCE_IDENTIFIER = "item.effect.distance";
+    public static final int ITEM_EFFECT_DISTANCE_VALUE = 15;
 }
