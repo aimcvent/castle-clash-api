@@ -48,7 +48,9 @@ public interface Role {
 
     Team team();
 
-    UpCounter up();
+    BoostCounter up();
+
+    BoostCounter boost();
 
     boolean hasDenyReward(String reward);
 
@@ -59,4 +61,6 @@ public interface Role {
     RoleCounter revive();
 
     Tameables tameables();
+
+    CommandBonus bonus();
 }

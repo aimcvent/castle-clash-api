@@ -21,6 +21,9 @@ public class RoleSettingKey {
     public static final String UP_COUNT_IDENTIFIER = "up.count";
     public static final int UP_COUNT_VALUE = 1;
 
+    public static final String BOOST_COUNT_IDENTIFIER = "boost.count";
+    public static final int BOOST_COUNT_VALUE = 1;
+
     public static final String SNIF_COUNT_IDENTIFIER = "snif.count";
     public static final int SNIF_COUNT_VALUE = 1;
 
@@ -128,4 +131,31 @@ public class RoleSettingKey {
 
     public static final String REGENERATION_TIME_IDENTIFIER = "regeneration.time";
     public static final int REGENERATION_TIME_VALUE = 10;
+
+    public static final String TNT_TIME_IDENTIFIER = "tnt.time";
+    public static final int TNT_TIME_VALUE = 45;
+
+    public static final String TNT_PRIME_IDENTIFIER = "tnt.prime";
+    public static final int TNT_PRIME_VALUE = 2;
+
+    public static final String ITEM_SHUFFLE_HOTBAR_TIME_IDENTIFIER = "item.shuffle.hotbar.time";
+    public static final int ITEM_SHUFFLE_HOTBAR_TIME_VALUE = 120;
+
+    public static final String ITEM_SHUFFLE_HOTBAR_DISTANCE_IDENTIFIER = "item.shuffle.hotbar.distance";
+    public static final int ITEM_SHUFFLE_HOTBAR_DISTANCE_VALUE = 10;
+
+    public static final String TRACK_DESTROYER_OBJECTIVE_TIME_IDENTIFIER = "track.destroyer.objective.time";
+    public static final int TRACK_DESTROYER_OBJECTIVE_TIME_VALUE = 180;
+
+    public static final String GIVE_ITEM_TIME_IDENTIFIER = "give.item.time";
+    public static final int GIVE_ITEM_TIME_VALUE = 20;
+
+    public static final String ANVIL_FALL_HEIGHT_IDENTIFIER = "anvil.fall.height";
+    public static final int ANVIL_FALL_HEIGHT_VALUE = 20;
+
+    public static final String ANVIL_FALL_DAMAGE_IDENTIFIER = "anvil.fall.damage";
+    public static final double ANVIL_FALL_DAMAGE_VALUE = 5.0;
+
+    public static final String UP_ADD_BOOST_COUNT_IDENTIFIER = "up.add.boost.count";
+    public static final int UP_ADD_BOOST_COUNT_VALUE = 1;
 }

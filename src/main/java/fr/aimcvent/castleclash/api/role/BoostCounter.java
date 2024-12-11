@@ -1,6 +1,6 @@
 package fr.aimcvent.castleclash.api.role;
 
-public interface UpCounter {
+public interface BoostCounter {
     int of();
 
     void add();

@@ -3,9 +3,7 @@ package fr.aimcvent.castleclash.api.event.command;
 import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.castleclash.api.utils.CommandResult;
 import fr.aimcvent.kernel.api.event.Event;
-import fr.aimcvent.kernel.api.injector.Injector;
 
-@Injector
 public class CommandUpEvent implements Event {
     private final Player player;
     private final Player up;

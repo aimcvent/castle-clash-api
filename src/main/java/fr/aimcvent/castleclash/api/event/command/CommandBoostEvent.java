@@ -4,23 +4,24 @@ import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.castleclash.api.utils.CommandResult;
 import fr.aimcvent.kernel.api.event.Event;
 
-public class CommandReviveEvent implements Event {
+
+public class CommandBoostEvent implements Event {
     private final Player player;
-    private final Player revive;
+    private final Player boost;
 
     private CommandResult result = CommandResult.EMPTY;
 
-    public CommandReviveEvent(Player player, Player revive) {
+    public CommandBoostEvent(Player player, Player boost) {
         this.player = player;
-        this.revive = revive;
+        this.boost = boost;
     }
 
     public Player player() {
         return this.player;
     }
 
-    public Player revive() {
-        return this.revive;
+    public Player boost() {
+        return this.boost;
     }
 
     public CommandResult result() {

@@ -27,7 +27,7 @@ public interface Players {
 
     void reset(org.bukkit.entity.Player player);
 
-    void reset(org.bukkit.entity.Player player, Role role);
+    void reset(org.bukkit.entity.Player player, Role role, boolean fullInventory);
 
     void fullReset(org.bukkit.entity.Player player, Location location, GameMode gameMode);
 }

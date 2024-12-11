@@ -21,6 +21,8 @@ import fr.aimcvent.kernel.api.service.Service;
 import fr.aimcvent.kernel.api.settings.WithSettings;
 
 public interface CastleClashService extends Service, WithConfiguration, WithSettings {
+    String version();
+
     Players players();
 
     Teams teams();

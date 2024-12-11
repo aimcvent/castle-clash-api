@@ -2,6 +2,7 @@ package fr.aimcvent.castleclash.api.role;
 
 import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.castleclash.api.role.handler.Emitter;
+import fr.aimcvent.castleclash.api.role.item.ItemModifiers;
 import fr.aimcvent.castleclash.api.role.message.Messages;
 import fr.aimcvent.castleclash.api.role.model.RoleModel;
 import fr.aimcvent.castleclash.api.role.model.RoleModelBuilder;
@@ -32,4 +33,6 @@ public interface Roles {
     Emitter emitter();
 
     Messages messages();
+
+    ItemModifiers modifiers();
 }

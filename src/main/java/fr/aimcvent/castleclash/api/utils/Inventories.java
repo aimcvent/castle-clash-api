@@ -11,6 +11,10 @@ public interface Inventories {
 
     void openGameSettingsMenu(Player player, Translation translation);
 
+    void openTimeSettingsMenu(Player player, Translation translation);
+
+    void openChestSettingsMenu(Player player, Translation translation);
+
     void openRoleSettingsMenu(Player player, Translation translation, boolean interactive);
 
     void openSettingsRoleMenu(Player player, Translation translation, RoleModel model, boolean interactive);
