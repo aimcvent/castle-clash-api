@@ -16,7 +16,6 @@ import fr.aimcvent.castleclash.api.utils.Model;
 import fr.aimcvent.kernel.api.service.Service;
 import fr.aimcvent.kernel.api.translation.Translation;
 import fr.aimcvent.kernel.api.translation.Translator;
-import org.bukkit.inventory.ItemStack;
 
 public interface RoleModel extends Model<Role> {
     Service service();
@@ -29,7 +28,7 @@ public interface RoleModel extends Model<Role> {
 
     String description(Translation translation);
 
-    ItemStack icon();
+    HeadIcon icon();
 
     boolean solidarity();
 

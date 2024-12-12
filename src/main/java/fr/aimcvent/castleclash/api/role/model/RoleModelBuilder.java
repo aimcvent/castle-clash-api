@@ -1,10 +1,9 @@
 package fr.aimcvent.castleclash.api.role.model;
 
+import fr.aimcvent.castleclash.api.role.HeadIcon;
 import fr.aimcvent.castleclash.api.role.model.inventory.RoleArmorModelBuilder;
 import fr.aimcvent.castleclash.api.role.model.inventory.RoleInventoryModelBuilder;
-import fr.aimcvent.castleclash.api.role.model.message.MessageModel;
 import fr.aimcvent.castleclash.api.role.model.message.MessageModelBuilder;
-import org.bukkit.Material;
 
 public interface RoleModelBuilder {
     RoleModelBuilder addName(String languageAlias, String name);
@@ -15,9 +14,7 @@ public interface RoleModelBuilder {
 
     RoleModelBuilder solo(boolean solo);
 
-    RoleModelBuilder icon(Material material);
-
-    RoleModelBuilder icon(Material material, int data);
+    RoleModelBuilder icon(HeadIcon icon);
 
     RoleInventoryModelBuilder inventory();
 
