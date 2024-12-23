@@ -10,6 +10,6 @@ import java.util.List;
 
 public interface HandlerModel extends LoadSettingModel<Handler<?>> {
     default List<Handler<?>> create(Player player, RoleModel roleModel) {
-        return new ArrayList<>();
+        return null;
     }
 }

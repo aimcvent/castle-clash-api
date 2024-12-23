@@ -20,7 +20,7 @@ public interface Roles {
 
     Optional<RoleModel> modelOf(Player player);
 
-    int count();
+    int[] count();
 
     RoleModelBuilder builderOf(Service service, String identifier);
 

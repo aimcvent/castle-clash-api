@@ -182,4 +182,40 @@ public class RoleSettingKey {
 
     public static final String ITEM_EFFECT_DISTANCE_IDENTIFIER = "item.effect.distance";
     public static final int ITEM_EFFECT_DISTANCE_VALUE = 15;
+
+    public static final String FILL_BLOCK_EFFECT_DURATION_IDENTIFIER = "fill.block.effect.duration";
+    public static final int FILL_BLOCK_EFFECT_DURATION_VALUE = 20;
+
+    public static final String RETRIEVE_ITEM_TIME_IDENTIFIER = "retrieve.item.time";
+    public static final int RETRIEVE_ITEM_TIME_VALUE = 80;
+
+    public static final String RETRIEVE_ITEM_LIMIT_IDENTIFIER = "retrieve.item.limit";
+    public static final int RETRIEVE_ITEM_LIMIT_VALUE = 3;
+
+    public static final String PLAYER_TELEPORT_TIME_IDENTIFIER = "player.teleport.time";
+    public static final int PLAYER_TELEPORT_TIME_VALUE = 180;
+
+    public static final String PLAYER_TELEPORT_DISTANCE_IDENTIFIER = "player.teleport.distance";
+    public static final int PLAYER_TELEPORT_DISTANCE_VALUE = 5;
+
+    public static final String PLAYER_TELEPORT_EXPIRE_TIME_IDENTIFIER = "player.teleport.expire.time";
+    public static final int PLAYER_TELEPORT_EXPIRE_TIME_VALUE = 30;
+
+    public static final String STOCK_GOLDEN_APPLE_HEAL_LIMIT_IDENTIFIER = "stock.golden.apple.heal.limit";
+    public static final int STOCK_GOLDEN_APPLE_HEAL_LIMIT_VALUE = 10;
+
+    public static final String STOCK_GOLDEN_APPLE_HEAL_EARN_IDENTIFIER = "stock.golden.apple.heal.earn";
+    public static final int STOCK_GOLDEN_APPLE_HEAL_EARN_VALUE = 1;
+
+    public static final String STOCK_GOLDEN_APPLE_HEAL_COST_IDENTIFIER = "stock.golden.apple.heal.cost";
+    public static final int STOCK_GOLDEN_APPLE_HEAL_COST_VALUE = 15;
+
+    public static final String STOCK_GOLDEN_APPLE_CONDITION_IDENTIFIER = "stock.golden.apple.condition";
+    public static final int STOCK_GOLDEN_APPLE_CONDITION_VALUE = 20;
+
+    public static final String KILL_ARROW_COUNT_IDENTIFIER = "kill.arrow.count";
+    public static final int KILL_ARROW_COUNT_VALUE = 1;
+
+    public static final String KILL_GOLDEN_APPLE_COUNT_IDENTIFIER = "kill.golden.apple.count";
+    public static final int KILL_GOLDEN_APPLE_COUNT_VALUE = 2;
 }

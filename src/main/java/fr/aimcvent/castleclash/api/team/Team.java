@@ -33,6 +33,8 @@ public interface Team {
 
     Map<CommandSender, Translation> translations();
 
+    boolean withoutRole();
+
     Optional<RoleModel> role();
 
     short wool();

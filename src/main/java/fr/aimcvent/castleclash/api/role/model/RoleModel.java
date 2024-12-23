@@ -3,6 +3,7 @@ package fr.aimcvent.castleclash.api.role.model;
 import fr.aimcvent.castleclash.api.role.*;
 import fr.aimcvent.castleclash.api.role.effect.Effect;
 import fr.aimcvent.castleclash.api.role.handler.Handler;
+import fr.aimcvent.castleclash.api.role.model.composition.RoleRandomCompositionModel;
 import fr.aimcvent.castleclash.api.role.model.effect.EffectModel;
 import fr.aimcvent.castleclash.api.role.model.handler.HandlerModel;
 import fr.aimcvent.castleclash.api.role.model.inventory.RoleArmorModel;
@@ -16,6 +17,8 @@ import fr.aimcvent.castleclash.api.utils.Model;
 import fr.aimcvent.kernel.api.service.Service;
 import fr.aimcvent.kernel.api.translation.Translation;
 import fr.aimcvent.kernel.api.translation.Translator;
+
+import java.util.Optional;
 
 public interface RoleModel extends Model<Role> {
     Service service();
@@ -49,4 +52,6 @@ public interface RoleModel extends Model<Role> {
     RoleArmorModel armor();
 
     RoleInventoryModel inventory();
+
+    Optional<RoleRandomCompositionModel> composition();
 }

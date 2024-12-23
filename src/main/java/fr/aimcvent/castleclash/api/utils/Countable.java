@@ -8,4 +8,8 @@ public interface Countable {
     Setting<Integer> min();
 
     Setting<Integer> max();
+
+    Setting<Integer> competition();
+
+    Setting<Integer> composition();
 }

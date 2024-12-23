@@ -1,6 +1,7 @@
 package fr.aimcvent.castleclash.api.role.model;
 
 import fr.aimcvent.castleclash.api.role.HeadIcon;
+import fr.aimcvent.castleclash.api.role.model.composition.RoleRandomCompositionModel;
 import fr.aimcvent.castleclash.api.role.model.inventory.RoleArmorModelBuilder;
 import fr.aimcvent.castleclash.api.role.model.inventory.RoleInventoryModelBuilder;
 import fr.aimcvent.castleclash.api.role.model.message.MessageModelBuilder;
@@ -23,6 +24,8 @@ public interface RoleModelBuilder {
     RoleModelBuilder addSpawnDescription(MessageModelBuilder messageModel);
 
     RoleModelBuilder addDenyReward(String reward);
+
+    RoleModelBuilder composition(RoleRandomCompositionModel randomCompositionModel);
 
     RoleModel build();
 }
