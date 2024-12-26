@@ -36,4 +36,6 @@ public interface Player {
     ActionBar actionBar();
 
     SettingSerializers serializers();
+
+    boolean host();
 }

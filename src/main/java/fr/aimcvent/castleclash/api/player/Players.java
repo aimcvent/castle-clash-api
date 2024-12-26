@@ -9,6 +9,7 @@ import org.bukkit.entity.HumanEntity;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 public interface Players {
     List<Player> all();
@@ -30,4 +31,8 @@ public interface Players {
     void reset(org.bukkit.entity.Player player, Role role, boolean fullInventory);
 
     void fullReset(org.bukkit.entity.Player player, Location location, GameMode gameMode);
+
+    void host(Player player);
+
+    Optional<Player> host();
 }

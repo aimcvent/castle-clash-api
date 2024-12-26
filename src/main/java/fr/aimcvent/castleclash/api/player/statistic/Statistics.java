@@ -1,17 +1,7 @@
 package fr.aimcvent.castleclash.api.player.statistic;
 
 public interface Statistics {
-    Counter kills();
+    ClassicStatistics classic();
 
-    Counter deaths();
-
-    Counter gamePlayed();
-
-    Assists assists();
-
-    KDA kda();
-
-    Elo elo();
-
-    Counter obsidianBreak();
+    RankedStatistics ranked();
 }

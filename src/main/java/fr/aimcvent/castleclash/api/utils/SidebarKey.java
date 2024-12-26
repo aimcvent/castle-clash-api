@@ -14,4 +14,5 @@ public class SidebarKey {
     public static final String TOP_KILLER      = "top_killer";
     public static final String TOP_ASSIST      = "top_assist";
     public static final String TOP_OBSIDIAN    = "top_obsidian";
+    public static final String HOST            = "host";
 }
