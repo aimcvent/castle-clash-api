@@ -1,10 +1,12 @@
 package fr.aimcvent.castleclash.api;
 
 import fr.aimcvent.castleclash.api.allow.AllowList;
+import fr.aimcvent.castleclash.api.calculator.Calculator;
 import fr.aimcvent.castleclash.api.chest.Chests;
 import fr.aimcvent.castleclash.api.competition.Competition;
 import fr.aimcvent.castleclash.api.hotbar.Hotbar;
 import fr.aimcvent.castleclash.api.objective.Objectives;
+import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.castleclash.api.player.Players;
 import fr.aimcvent.castleclash.api.role.Roles;
 import fr.aimcvent.castleclash.api.role.handler.Handler;
@@ -66,4 +68,8 @@ public interface CastleClashService extends Service, WithConfiguration, WithSett
     Random random();
 
     Hotbar hotbar();
+
+    Calculator calculatorOf(Player player);
+
+    Statistics statistics();
 }

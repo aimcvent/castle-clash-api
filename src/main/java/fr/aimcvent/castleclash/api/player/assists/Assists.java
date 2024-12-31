@@ -1,17 +1,16 @@
-package fr.aimcvent.castleclash.api.player.statistic;
+package fr.aimcvent.castleclash.api.player.assists;
 
 import fr.aimcvent.castleclash.api.player.Player;
-import fr.aimcvent.castleclash.api.player.statistic.Assist;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface AssistQueue {
+public interface Assists {
     List<Assist> all();
 
     Optional<Assist> of(Player player);
 
-    void add(Player player, int damage, int life);
+    void add(Assist assist);
 
     void remove(Player player);
 
