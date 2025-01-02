@@ -16,4 +16,6 @@ public interface SimpleStatistics extends Statistics {
     double vl();
 
     TopStatistics top();
+
+    RoleStatistics roles();
 }

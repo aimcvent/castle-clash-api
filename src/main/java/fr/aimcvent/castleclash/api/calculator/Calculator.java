@@ -1,5 +1,5 @@
 package fr.aimcvent.castleclash.api.calculator;
 
-public interface Calculator {
-    Result calculate();
+public interface Calculator<T extends Result> {
+    T calculate();
 }

@@ -1,22 +1,19 @@
 package fr.aimcvent.castleclash.api;
 
 import fr.aimcvent.castleclash.api.allow.AllowList;
-import fr.aimcvent.castleclash.api.calculator.Calculator;
+import fr.aimcvent.castleclash.api.calculator.Calculators;
 import fr.aimcvent.castleclash.api.chest.Chests;
 import fr.aimcvent.castleclash.api.competition.Competition;
 import fr.aimcvent.castleclash.api.hotbar.Hotbar;
 import fr.aimcvent.castleclash.api.objective.Objectives;
-import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.castleclash.api.player.Players;
 import fr.aimcvent.castleclash.api.role.Roles;
 import fr.aimcvent.castleclash.api.role.handler.Handler;
 import fr.aimcvent.castleclash.api.role.model.VictoryCollectionModel;
 import fr.aimcvent.castleclash.api.role.spawn.Spawn;
-import fr.aimcvent.castleclash.api.role.victory.Victory;
 import fr.aimcvent.castleclash.api.role.model.handler.HandlerModel;
 import fr.aimcvent.castleclash.api.role.model.CollectionModel;
 import fr.aimcvent.castleclash.api.role.model.spawn.SpawnModel;
-import fr.aimcvent.castleclash.api.role.model.victory.VictoryModel;
 import fr.aimcvent.castleclash.api.serializer.SettingSerializers;
 import fr.aimcvent.castleclash.api.team.Teams;
 import fr.aimcvent.castleclash.api.teleport.Teleports;
@@ -35,7 +32,7 @@ public interface CastleClashService extends Service, WithConfiguration, WithSett
 
     Teams teams();
 
-    Locations locations();
+    World world();
 
     Informations informations();
 
@@ -69,7 +66,7 @@ public interface CastleClashService extends Service, WithConfiguration, WithSett
 
     Hotbar hotbar();
 
-    Calculator calculatorOf(Player player);
+    Calculators calculators();
 
     Statistics statistics();
 }
