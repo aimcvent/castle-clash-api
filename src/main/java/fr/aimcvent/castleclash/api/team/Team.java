@@ -2,7 +2,7 @@ package fr.aimcvent.castleclash.api.team;
 
 import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.castleclash.api.role.model.RoleModel;
-import fr.aimcvent.castleclash.api.team.statistic.Elo;
+import fr.aimcvent.castleclash.api.utils.Color;
 import fr.aimcvent.kernel.api.translation.Translation;
 import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
@@ -39,5 +39,5 @@ public interface Team {
 
     short wool();
 
-    Elo elo();
+    Color color();
 }

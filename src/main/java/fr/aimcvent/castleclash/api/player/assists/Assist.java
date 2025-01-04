@@ -1,13 +1,11 @@
-package fr.aimcvent.castleclash.api.player.statistic;
+package fr.aimcvent.castleclash.api.player.assists;
 
 import fr.aimcvent.castleclash.api.player.Player;
 
 public interface Assist {
     Player player();
 
-    int damage();
-
-    int life();
+    double damage();
 
     long lastDamageAt();
 

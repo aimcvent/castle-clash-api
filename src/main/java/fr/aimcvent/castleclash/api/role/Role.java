@@ -18,6 +18,8 @@ public interface Role {
 
     String identifier();
 
+    String originIdentifier();
+
     Player player();
 
     Translator name();

@@ -5,7 +5,7 @@ import org.bukkit.Location;
 
 import java.util.Map;
 
-public interface Locations {
+public interface World {
 
     Location spawn();
 
@@ -14,4 +14,6 @@ public interface Locations {
     Location parse(Configuration configuration, String path);
 
     Location parse(Map<String, Object> locationMap);
+
+    Color color();
 }

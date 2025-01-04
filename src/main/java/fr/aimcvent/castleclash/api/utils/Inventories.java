@@ -21,6 +21,8 @@ public interface Inventories {
 
     void openItemStatisticsMenu(Player player, Translation translation, boolean ranked);
 
+    void openRoleStatisticsMenu(Player player, Translation translation, boolean ranked);
+
     void openRoleSettingsMenu(Player player, Translation translation, boolean interactive);
 
     void openRoleMenu(Player player, Translation translation);

@@ -15,6 +15,6 @@ public interface TopBoard {
     interface Top {
         String name();
 
-        int value();
+        long value();
     }
 }
