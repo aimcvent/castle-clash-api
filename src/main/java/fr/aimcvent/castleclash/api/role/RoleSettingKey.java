@@ -218,4 +218,28 @@ public class RoleSettingKey {
 
     public static final String KILL_GOLDEN_APPLE_COUNT_IDENTIFIER = "kill.golden.apple.count";
     public static final int KILL_GOLDEN_APPLE_COUNT_VALUE = 2;
+
+    public static final String GIVE_EFFECT_REACTIVE_TIME_IDENTIFIER = "give.effect.reactive.time";
+    public static final int GIVE_EFFECT_REACTIVE_TIME_VALUE = 300;
+
+    public static final String GIVE_EFFECT_TIME_IDENTIFIER = "give.effect.time";
+    public static final int GIVE_EFFECT_TIME_VALUE = 180;
+
+    public static final String GIVE_EFFECT_DISTANCE_IDENTIFIER = "give.effect.distance";
+    public static final int GIVE_EFFECT_DISTANCE_VALUE = 20;
+
+    public static final String GIVE_EFFECT_POTION_TIME_IDENTIFIER = "give.effect.potion.time";
+    public static final int GIVE_EFFECT_POTION_TIME_VALUE = 20;
+
+    public static final String SWITCH_EFFECT_ITEM_REGENERATION_TIME_IDENTIFIER = "switch.effect.item.regeneration.time";
+    public static final int SWITCH_EFFECT_ITEM_REGENERATION_TIME_VALUE = 10;
+
+    public static final String SWITCH_EFFECT_ITEM_REGENERATION_HEAL_IDENTIFIER = "switch.effect.item.regeneration.heal";
+    public static final int SWITCH_EFFECT_ITEM_REGENERATION_HEAL_VALUE = 1;
+
+    public static final String SWITCH_EFFECT_ITEM_DISTANCE_IDENTIFIER = "switch.effect.item.distance";
+    public static final int SWITCH_EFFECT_ITEM_DISTANCE_VALUE = 20;
+
+    public static final String SWITCH_EFFECT_ITEM_TIME_IDENTIFIER = "switch.effect.item.time";
+    public static final int SWITCH_EFFECT_ITEM_TIME_VALUE = 20;
 }
