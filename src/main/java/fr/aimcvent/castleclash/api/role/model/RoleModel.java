@@ -8,6 +8,7 @@ import fr.aimcvent.castleclash.api.role.model.effect.EffectModel;
 import fr.aimcvent.castleclash.api.role.model.handler.HandlerModel;
 import fr.aimcvent.castleclash.api.role.model.inventory.RoleArmorModel;
 import fr.aimcvent.castleclash.api.role.model.inventory.RoleInventoryModel;
+import fr.aimcvent.castleclash.api.role.model.item.ItemLimiterModel;
 import fr.aimcvent.castleclash.api.role.model.spawn.SpawnModel;
 import fr.aimcvent.castleclash.api.role.model.victory.VictoryModel;
 import fr.aimcvent.castleclash.api.role.spawn.Spawn;
@@ -33,6 +34,8 @@ public interface RoleModel extends Model<Role> {
 
     HeadIcon icon();
 
+    String prefix();
+
     boolean solidarity();
 
     boolean solo();
@@ -54,4 +57,6 @@ public interface RoleModel extends Model<Role> {
     RoleInventoryModel inventory();
 
     Optional<RoleRandomCompositionModel> composition();
+
+    ItemLimiterModel itemLimiter();
 }

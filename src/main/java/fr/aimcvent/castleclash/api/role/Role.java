@@ -3,6 +3,7 @@ package fr.aimcvent.castleclash.api.role;
 import fr.aimcvent.castleclash.api.player.Player;
 import fr.aimcvent.castleclash.api.role.effect.Effects;
 import fr.aimcvent.castleclash.api.role.handler.Handlers;
+import fr.aimcvent.castleclash.api.role.item.ItemLimiter;
 import fr.aimcvent.castleclash.api.role.model.RoleModel;
 import fr.aimcvent.castleclash.api.role.spawn.Spawns;
 import fr.aimcvent.castleclash.api.role.victory.Victories;
@@ -36,6 +37,8 @@ public interface Role {
 
     boolean solo();
 
+    String prefix();
+
     Spawns spawns();
 
     Handlers handlers();
@@ -65,4 +68,6 @@ public interface Role {
     Tameables tameables();
 
     CommandBonus bonus();
+
+    ItemLimiter itemLimiter();
 }

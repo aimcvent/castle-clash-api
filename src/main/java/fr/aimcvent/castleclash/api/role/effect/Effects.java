@@ -8,6 +8,8 @@ public interface Effects extends RoleCollection<Effect> {
 
     boolean has(PotionEffectType type);
 
+    int levelOf(PotionEffectType type);
+
     void lock(int second);
 
     void lock(int second, boolean full);

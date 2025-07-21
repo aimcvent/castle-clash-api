@@ -8,4 +8,10 @@ public interface BoostCounter {
     boolean boosted();
 
     void boost();
+
+    boolean active();
+
+    boolean fullUsed();
+
+    void update(boolean active, boolean fullUsed);
 }

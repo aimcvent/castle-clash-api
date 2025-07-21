@@ -3,9 +3,6 @@ package fr.aimcvent.castleclash.api.role;
 import fr.aimcvent.castleclash.api.utils.Nycthemer;
 
 public class RoleSettingKey {
-    public static final String GOLDEN_APPLE_MAX_IDENTIFIER = "golden.apple.max";
-    public static final int GOLDEN_APPLE_MAX_VALUE = 12;
-
     public static final String HEALTH_IDENTIFIER = "health";
     public static final int HEALTH_VALUE = 20;
 
@@ -42,11 +39,20 @@ public class RoleSettingKey {
     public static final String PROXIMITY_EFFECT_DISTANCE_IDENTIFIER = "proximity.effect.distance";
     public static final int PROXIMITY_EFFECT_DISTANCE_VALUE = 10;
 
+    public static final String PROXIMITY_EFFECT_DISTANCE_UP_IDENTIFIER = "proximity.effect.up.distance";
+    public static final int PROXIMITY_EFFECT_DISTANCE_UP_VALUE = 30;
+
     public static final String GIVE_PROXIMITY_EFFECT_DISTANCE_IDENTIFIER = "give.proximity.effect.distance";
     public static final int GIVE_PROXIMITY_EFFECT_DISTANCE_VALUE = 10;
 
+    public static final String GIVE_PROXIMITY_EFFECT_UP_DISTANCE_IDENTIFIER = "give.proximity.effect.up.distance";
+    public static final int GIVE_PROXIMITY_EFFECT_UP_DISTANCE_VALUE = 10;
+
     public static final String GIVE_PROXIMITY_EFFECT_MATERIAL_DISTANCE_IDENTIFIER = "give.proximity.effect.material.distance";
     public static final int GIVE_PROXIMITY_EFFECT_MATERIAL_DISTANCE_VALUE = 10;
+
+    public static final String GIVE_PROXIMITY_EFFECT_MATERIAL_UP_DISTANCE_IDENTIFIER = "give.proximity.effect.material.up.distance";
+    public static final int GIVE_PROXIMITY_EFFECT_MATERIAL_UP_DISTANCE_VALUE = 10;
 
     public static final String UP_PROXIMITY_HEAL_IDENTIFIER = "up.proximity.heal";
     public static final int UP_PROXIMITY_HEAL_VALUE = 2;
@@ -74,6 +80,12 @@ public class RoleSettingKey {
 
     public static final String ARROW_FLAME_RATE_UP_IDENTIFIER = "arrow.flame.rate.up";
     public static final int ARROW_FLAME_RATE_UP_VALUE = 50;
+
+    public static final String SWORD_FLAME_RATE_IDENTIFIER = "sword.flame.rate";
+    public static final int SWORD_FLAME_RATE_VALUE = 0;
+
+    public static final String SWORD_FLAME_RATE_UP_IDENTIFIER = "sword.flame.rate.up";
+    public static final int SWORD_FLAME_RATE_UP_VALUE = 15;
 
     public static final String ARROW_KNOCK_BACK_RATE_IDENTIFIER = "arrow.knock.back.rate";
     public static final int ARROW_KNOCK_BACK_RATE_VALUE = 0;
@@ -146,6 +158,9 @@ public class RoleSettingKey {
 
     public static final String TRACK_DESTROYER_OBJECTIVE_TIME_IDENTIFIER = "track.destroyer.objective.time";
     public static final int TRACK_DESTROYER_OBJECTIVE_TIME_VALUE = 180;
+
+    public static final String TRACK_UP_DESTROYER_DEATH_DISTANCE_IDENTIFIER = "track.up.destroyer.death.distance";
+    public static final int TRACK_UP_DESTROYER_DEATH_DISTANCE_VALUE = 25;
 
     public static final String GIVE_ITEM_TIME_IDENTIFIER = "give.item.time";
     public static final int GIVE_ITEM_TIME_VALUE = 20;
@@ -242,4 +257,7 @@ public class RoleSettingKey {
 
     public static final String SWITCH_EFFECT_ITEM_TIME_IDENTIFIER = "switch.effect.item.time";
     public static final int SWITCH_EFFECT_ITEM_TIME_VALUE = 20;
+
+    public static final String DESTROY_WALL_TIME_IDENTIFIER = "destroy.wall.time";
+    public static final int DESTROY_WALL_TIME_VALUE = 20;
 }

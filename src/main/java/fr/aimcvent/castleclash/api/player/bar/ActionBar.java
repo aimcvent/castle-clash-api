@@ -15,4 +15,6 @@ public interface ActionBar {
     <T extends SectionBar> void register(Class<T> type, T section);
 
     void update(Player player);
+
+    void next();
 }

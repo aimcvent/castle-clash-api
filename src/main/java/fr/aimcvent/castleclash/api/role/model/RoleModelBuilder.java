@@ -17,6 +17,8 @@ public interface RoleModelBuilder {
 
     RoleModelBuilder icon(HeadIcon icon);
 
+    RoleModelBuilder prefix(String prefix);
+
     RoleInventoryModelBuilder inventory();
 
     RoleArmorModelBuilder armor();

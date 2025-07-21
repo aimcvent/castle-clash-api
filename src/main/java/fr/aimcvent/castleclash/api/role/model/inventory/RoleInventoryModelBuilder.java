@@ -1,10 +1,10 @@
 package fr.aimcvent.castleclash.api.role.model.inventory;
 
-import org.bukkit.inventory.ItemStack;
+import fr.aimcvent.castleclash.api.role.item.DisplayItem;
 
 public interface RoleInventoryModelBuilder {
 
-    RoleInventoryModelBuilder add(ItemStack itemStack);
+    RoleInventoryModelBuilder add(DisplayItem itemStack);
 
     RoleInventoryModel build();
 }

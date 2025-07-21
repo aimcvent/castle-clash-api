@@ -1,16 +1,16 @@
 package fr.aimcvent.castleclash.api.role.model.inventory;
 
-import org.bukkit.inventory.ItemStack;
+import fr.aimcvent.castleclash.api.role.item.DisplayItem;
 
 public interface RoleArmorModelBuilder {
 
-    RoleArmorModelBuilder helmet(ItemStack helmet);
+    RoleArmorModelBuilder helmet(DisplayItem helmet);
 
-    RoleArmorModelBuilder chestplate(ItemStack chestplate);
+    RoleArmorModelBuilder chestplate(DisplayItem chestplate);
 
-    RoleArmorModelBuilder leggings(ItemStack leggings);
+    RoleArmorModelBuilder leggings(DisplayItem leggings);
 
-    RoleArmorModelBuilder boots(ItemStack boots);
+    RoleArmorModelBuilder boots(DisplayItem boots);
 
     RoleArmorModel build();
 }

@@ -7,5 +7,7 @@ public interface Team {
 
     org.bukkit.scoreboard.Team bukkit();
 
-    void applyElo();
+    void updatePrefix();
+
+    void updateSuffix();
 }

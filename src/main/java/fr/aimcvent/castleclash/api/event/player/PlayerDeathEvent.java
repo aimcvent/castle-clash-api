@@ -18,17 +18,15 @@ public class PlayerDeathEvent extends PlayerEvent implements CancellableEvent {
 
     public PlayerDeathEvent(
         Player player,
-        Location location,
         EntityDamageEvent.DamageCause cause,
         Eliminate eliminate
     ) {
-        this(player, null, location, cause, eliminate);
+        this(player, null, cause, eliminate);
     }
 
     public PlayerDeathEvent(
         Player player,
         Player killer,
-        Location location,
         EntityDamageEvent.DamageCause cause,
         Eliminate eliminate
     ) {
