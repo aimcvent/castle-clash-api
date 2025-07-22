@@ -35,4 +35,6 @@ public interface Players {
     void host(Player player);
 
     Optional<Player> host();
+
+    void shuffle(org.bukkit.entity.Player player);
 }

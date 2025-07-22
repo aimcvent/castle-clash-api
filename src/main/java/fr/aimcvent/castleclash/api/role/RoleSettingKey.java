@@ -150,11 +150,17 @@ public class RoleSettingKey {
     public static final String TNT_PRIME_IDENTIFIER = "tnt.prime";
     public static final int TNT_PRIME_VALUE = 2;
 
+    public static final String TNT_PRIME_PLAYER_DEATH_IDENTIFIER = "tnt.prime.player.death";
+    public static final int TNT_PRIME_PLAYER_DEATH_VALUE = 2;
+
     public static final String ITEM_SHUFFLE_HOTBAR_TIME_IDENTIFIER = "item.shuffle.hotbar.time";
     public static final int ITEM_SHUFFLE_HOTBAR_TIME_VALUE = 120;
 
     public static final String ITEM_SHUFFLE_HOTBAR_DISTANCE_IDENTIFIER = "item.shuffle.hotbar.distance";
     public static final int ITEM_SHUFFLE_HOTBAR_DISTANCE_VALUE = 10;
+
+    public static final String SHUFFLE_INVENTORY_PLAYER_DEATH_DISTANCE_IDENTIFIER = "shuffle.inventory.player.death.distance";
+    public static final int SHUFFLE_INVENTORY_PLAYER_DEATH_DISTANCE_VALUE = 10;
 
     public static final String TRACK_DESTROYER_OBJECTIVE_TIME_IDENTIFIER = "track.destroyer.objective.time";
     public static final int TRACK_DESTROYER_OBJECTIVE_TIME_VALUE = 180;
