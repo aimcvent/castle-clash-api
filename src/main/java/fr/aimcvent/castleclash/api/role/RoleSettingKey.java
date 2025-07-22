@@ -260,4 +260,10 @@ public class RoleSettingKey {
 
     public static final String DESTROY_WALL_TIME_IDENTIFIER = "destroy.wall.time";
     public static final int DESTROY_WALL_TIME_VALUE = 20;
+
+    public static final String SHOW_CHEST_TIME_IDENTIFIER = "show.chest.time";
+    public static final int SHOW_CHEST_TIME_VALUE = 150;
+
+    public static final String SHOW_CHEST_TIME_UP_IDENTIFIER = "show.chest.time.up";
+    public static final int SHOW_CHEST_TIME_UP_VALUE = 60;
 }
