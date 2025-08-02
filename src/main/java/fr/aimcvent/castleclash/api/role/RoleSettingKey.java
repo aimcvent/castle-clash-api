@@ -63,6 +63,12 @@ public class RoleSettingKey {
     public static final String UP_PROXIMITY_HEAL_TIME_IDENTIFIER = "up.proximity.heal.time";
     public static final int UP_PROXIMITY_HEAL_TIME_VALUE = 8;
 
+    public static final String UP_FIRST_DOUBLE_PROXIMITY_EFFECT_DISTANCE_IDENTIFIER = "up.first.double.proximity.effect.distance";
+    public static final int UP_FIRST_DOUBLE_PROXIMITY_EFFECT_DISTANCE_VALUE = 10;
+
+    public static final String UP_SECOND_DOUBLE_PROXIMITY_EFFECT_DISTANCE_IDENTIFIER = "up.second.double.proximity.effect.distance";
+    public static final int UP_SECOND_DOUBLE_PROXIMITY_EFFECT_DISTANCE_VALUE = 30;
+
     public static final String HEAL_REVEAL_IDENTIFIER = "heal.reveal";
     public static final int HEAL_REVEAL_VALUE = 2;
 
