@@ -27,7 +27,7 @@ public interface Team {
 
     boolean has(Player player);
 
-    Location spawn();
+    List<Location> spawns();
 
     ItemStack item();
 
