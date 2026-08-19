@@ -3,7 +3,7 @@ package fr.aimcvent.castleclash.api.utils;
 import fr.aimcvent.player.api.rank.Permission;
 
 public enum Permissions implements Permission {
-    COMMAND_BROADCAST("command.broadcast"),
+    COMMAND_BROADCAST("command.broadcast", true),
     COMMAND_DEBUG("command.debug"),
     COMMAND_HOST("command.host"),
     COMMAND_SETTINGS("command.settings", true),
